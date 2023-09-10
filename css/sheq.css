@@ -1,0 +1,50 @@
+.sheq{
+    margin-top: 100px;
+}
+.titulos-sheq{
+    background-color: #A8DF8E;
+    height: 200px;
+    padding: 20px;
+}
+.sheq h1{
+    text-align: center;
+    
+}
+.sheq h2{
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.foto-perfil-setores-sheq{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #A8DF8E;
+    border-radius: 50%;
+    
+}
+.texto-acoes-sheq h1{
+    margin-bottom: 30px;
+}
+.texto-acoes-sheq{
+    margin: 30px auto;
+    max-width: 800px;
+    text-align: justify;
+}
+.conteiner-banner-sheq{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img_banner_sheq{
+    width: 300px;
+    height: 300px;
+}
+@media (max-width: 768px) {
+    .conteiner-banner-sheq{
+        flex-direction: column;
+        
+    }
+    .conteiner-banner-sheq img{
+     margin-bottom: 30px;
+        
+    }
+}

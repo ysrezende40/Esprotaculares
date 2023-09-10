@@ -1,0 +1,183 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root{
+    --cor-fundo-body: #EDEDED;
+    /* 05C7F2 */
+    /* D1E9FF 9.0 */
+
+}
+body{
+background-color: var(--cor-fundo-body);
+}
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+.dark-mode p {
+    color: white; /* Cor do texto em <p> no modo dark */
+}
+
+.dark-mode h1, .dark-mode h2 {
+    color: #FFF5E0; /* Cor dos títulos em <h1> e <h2> no modo dark */
+}
+h1{
+    text-transform: uppercase;
+    font-size: 65px;
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.h1-abrindo-setores{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+/* elipeses das fotos */
+.ellipses{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap:55px
+}
+.ellipses-descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* funções e ações dos setores */
+.funcoes{
+    margin-top: 90px;
+}
+.funcoes h1{
+    margin-bottom: 40px;
+}
+.funcoes p{
+    margin: 10px auto;
+    max-width: 800px;
+    text-align: justify;
+}
+.acaoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center; 
+}
+.acaoes h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.lista-acoes li{
+    margin-bottom: 10px; 
+    font-size: 30px;
+}
+.lista-acoes-mobile{
+    display: none;
+}
+.h1-acoes-mobile{
+    display: none;
+}
+#btnTopo {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#btnTopo:hover {
+    background-color: #0056b3;
+}
+.conteiner-footer-mensage{
+    display: flex;
+    justify-content: space-evenly;
+   padding: 10px;
+}
+ a{
+    color: black;
+    text-decoration: none;
+}
+.ysaac:hover{
+   background-color: red;
+   transform: translateY(-20px);
+   height: 30px;
+   font-size: 30px;
+   transition: transform 0.3s ease;
+}
+.foto-perfil-instrutora{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #FF3FA4;
+    border-radius: 50%;
+}
+@media (max-width: 768px) {
+    .btnAniversario{
+        display: none;
+    }
+    .acaoes{
+        display: none;
+    }
+    
+    .lista-acoes-mobile{
+        display: block;
+        display: flex;
+        flex-direction: column;
+
+       
+    }
+    .lista-acoes-mobile p{
+     margin-bottom: 10px;
+       
+    }
+    .h1-acoes-mobile{
+        display: block;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .btnTopo img{
+        display: none;
+     }
+    h1{
+        text-transform: uppercase;
+        font-size: 35px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    h2{
+        font-size: 25px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    .h1-abrindo-setores{
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 35px;
+    }
+    .conteiner-footer{
+        flex-direction: column;
+       
+    }
+    .footer{
+        width: 300%;
+    }
+
+}

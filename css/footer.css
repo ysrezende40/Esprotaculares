@@ -1,0 +1,9 @@
+footer{
+    background-color: #115084;
+  
+}
+.conteiner-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

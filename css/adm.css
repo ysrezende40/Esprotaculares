@@ -1,0 +1,34 @@
+.ADM{
+    margin-top: 100px;
+}
+.titulos-adm{
+    background-color: #FFA41B;
+    height: 200px;
+    padding: 20px;
+}
+.ADM h1{
+    text-align: center;
+    
+}
+.ADM h2{
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.foto-perfil-setores-adm{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #FFA41B;
+    border-radius: 50%;
+    
+}
+@media (max-width: 768px) {
+    .acaoes{
+        display: none;
+    }
+    .funcoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

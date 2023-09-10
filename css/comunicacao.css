@@ -1,0 +1,23 @@
+.comunicacao{
+    margin-top: 100px;
+}
+.comunicacao h1{
+    text-align: center;
+    
+}
+.comunicacao h2{
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.foto-perfil-setores-comunica{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #C51605;
+    border-radius: 50%;
+}
+.titulos-comunicacao{
+    background-color: #C51605;
+    height: 200px;
+    padding: 20px;
+}

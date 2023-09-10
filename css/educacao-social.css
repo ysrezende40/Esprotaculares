@@ -1,0 +1,24 @@
+.educacao-social{
+    margin-top: 100px;
+}
+.educacao-social h1{
+    text-align: center;
+    
+}
+.educacao-social h2{
+    margin-top: 25px;
+    text-align: center;
+    
+}
+
+.titulos-educacao-social{
+    height: 200px;
+    padding: 20px;
+    background-color: #F8DE22;
+}
+.foto-perfil-educa{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #F8DE22;
+    border-radius: 50%;
+}

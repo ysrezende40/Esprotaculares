@@ -1,0 +1,44 @@
+.RH{
+    margin-top: 100px;
+}
+.titulos-rh{
+    background-color: #FFC436;
+    height: 200px;
+    padding: 20px;
+}
+.RH h1{
+    text-align: center;
+    
+}
+.RH h2{
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.foto-perfil-setores-rh{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #FFC436;
+    border-radius: 50%;
+    
+}
+.funcoes-rh {
+    margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.funcoes-rh p{
+    margin-top: 30px;
+    margin-left: 600px;
+    text-align: justify;
+}
+@media (max-width: 768px) {
+    .funcoes-rh{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .funcoes-rh p{
+        margin-left: 100px;
+    }
+}
